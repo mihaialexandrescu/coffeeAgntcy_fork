@@ -29,7 +29,7 @@ Discover, evaluate, and dynamically recruit agents for on-demand task execution.
 
 ## Overview
 
-Agent Recruiter is a multi-agent system that helps find, evaluate, and recruit agents from the [AGNTCY Directory Service](https://github.com/agntcy/dir) based on specified criteria:
+Agent Recruiter is a multi-agent system that helps find, evaluate, and recruit agents from the [AGNTCY Directory Service](https://github.com/agntcy/dir) based on specified criteria: MYCHANGE!
 
 1. **Request**: User asks the Recruiter to find agents based on skills, name, or semantic query
 2. **Search**: Recruiter searches the directory for matching agents using MCP tools
