@@ -2,10 +2,10 @@ name: Build and Push All Docker Images
 
 on:
   push:
-    branches: [main]
-    tags: ["*"]
+    branches: [never-use-this-branch]
+    tags: ["never-use-this-tag"]
   pull_request:
-    branches: [main]
+    branches: [never-use-this-branch]
   workflow_dispatch:
 
 jobs:

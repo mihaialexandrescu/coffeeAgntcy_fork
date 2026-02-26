@@ -3,10 +3,10 @@ name: Helm Push Charts
 on:
   push:
     branches:
-      - main
+      - never-use-this-branch
   pull_request:
     branches:
-      - main
+      - never-use-this-branch
   workflow_dispatch:
 
 jobs:

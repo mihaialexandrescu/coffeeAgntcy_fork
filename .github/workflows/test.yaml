@@ -1,9 +1,9 @@
 name: Integration Tests
 on:
   pull_request:
-    branches: [main]
+    branches: [never-use-this-branch]
   push:
-    branches: [main]
+    branches: [never-use-this-branch]
   workflow_call:
     inputs:
       pip_overrides:
