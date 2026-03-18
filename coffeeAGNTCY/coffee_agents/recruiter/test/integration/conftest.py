@@ -119,7 +119,7 @@ def setup_directory_services():
     # dir-api-server does not expose an HTTP endpoint but rather a gRPC one at 8888.
     # In newer versions of dir-apiserver they do the health check with grpc-health-probe but in apiserver v0.6.0 that was not bundled in the image.
     # For dir-apiserver, this is a fix that will come in a future version (it is not in v1.0.0 but it is fixed in main by https://github.com/agntcy/dir/pull/1017).
-    time.sleep(20) # give dir-api-server time to start up; TODO: long-term we should use a more robust wait mechanism.
+    time.sleep(30) # give dir-api-server time to start up; TODO: long-term we should use a more robust wait mechanism.
 
 def _startup_zot():
     up(files, ["zot"])

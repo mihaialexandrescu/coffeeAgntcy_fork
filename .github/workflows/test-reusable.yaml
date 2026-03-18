@@ -77,7 +77,6 @@ jobs:
           chmod +x "${HOME}/.local/bin/dirctl"
           echo "${HOME}/.local/bin" >> "${GITHUB_PATH}"
           dirctl version
-          test -x "${HOME}/.local/bin/dirctl"
       
       - name: Create CI env file
         run: |
